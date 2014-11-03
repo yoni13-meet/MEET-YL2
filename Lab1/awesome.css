@@ -1,0 +1,23 @@
+
+#awesome {
+	list-style-type: none;
+	float: left;
+	padding-top: 10px;
+}
+#awesome li {
+	display: inline;
+	font-size: 20px;
+	color: rgb(160, 160, 160);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#awesome li:hover {
+	color: white;
+	transition: 1s;	
+}
+#who_am_i {
+	width: 700px;
+}
+#bazinga {
+	list-style-type: none;
+}
