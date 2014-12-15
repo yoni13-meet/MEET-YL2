@@ -1,10 +1,10 @@
 
-#awesome {
+.awesome {
 	list-style-type: none;
 	float: left;
 	padding-top: 10px;
 }
-#awesome li {
+.awesome li {
 	display: inline;
 	font-size: 20px;
 	color: rgb(160, 160, 160);

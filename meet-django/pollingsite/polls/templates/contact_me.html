@@ -1,17 +1,18 @@
+{%load static%}
 <!doctype html>
 <html>
 <head>
 	<title>Contact Me</title>
-	<link rel="stylesheet" type="text/css" href="awesome.css">
-	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/css/awesome.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'polls/css/dist/css/bootstrap.css' %}">
 </head>
 <body>
 	<nav class="navbar navbar-inverse" role="navigation">
   		<div>
-  			<ul id="awesome">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="Robots.html">Robots</a></li>
-				<li><a href="contact_me.html">Contact Me</a></li>
+  			<ul class="awesome">
+				<li><a href="/polls/pizza">Home</a></li>
+				<li><a href="/polls/burger">Robots</a></li>
+				<li><a href="/polls/hotdog">Contact Me</a></li>
 			</ul>
   		</div>
 	</nav>
